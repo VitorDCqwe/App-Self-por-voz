@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplicativo Self por voz</title>
+    <title>Aplicativo Selfie por voz</title>
     <link rel="shortcut icon" href="favicom.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -11,6 +11,32 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <script src="main.js"></script>
+    <div class="container">
+        <a href="" id="link" download="mySelfie.png"></a>
+        <h1>
+            App Selfie por voz
+            <img src="self.png" alt="Selfie" id="logo_img">
+        </h1>
+        <hr>
+        <h4 style="color: red;">Pressione permitir assim que o pop-up for exibido depois de dar um comando de voz</h4>
+        
+        <div class="form-group">
+            <h3>Diga "selfie</h3>
+            <label>Sua saída de voz: </label>
+            <textarea class="form-control" id="textbox" readonly="true"></textarea>
+        </div>
+
+        <button class="btn btn-primary" onclick="start()">Iniciar</button>
+        <p>Pressione o botão Iniciar</p>
+        <label>Sua webcam</label>
+        
+        <div id="camera"></div>
+        <br>
+        <label>Sua selfie será exibida aqui: </label>
+
+        <div id="result"></div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
