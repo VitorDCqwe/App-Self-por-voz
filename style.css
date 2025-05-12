@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(0, 183, 255);
+    align-items: center;
+    text-align: center;
+}
+
+#start-brn {
+    width: 40%;
+}
+
+#camera {
+    width: 360px;
+    height: 250px;
+    border: 1px solid rgb(0, 60, 255);
+    margin: auto;
+}
+
+#logo-img {
+    width: 150px;
+    border-radius: 100px;
+}
+
+#textbox {
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
